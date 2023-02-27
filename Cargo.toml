@@ -1,0 +1,17 @@
+[package]
+name = "proc-macro-type-name"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.56"
+authors = ["Lukas Potthast <privat@lukas-potthast.de>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/lpotthast/proc-macro-type-name"
+description = """
+Convert Rust field names (snake case) to type names (pascal case) using proc_macro2 identifiers..
+"""
+categories = ["development-tools::procedural-macro-helpers"]
+keywords = ["proc-macro", "type", "conversion", "type-name"]
+
+[dependencies]
+proc-macro2 = "1"
